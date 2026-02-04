@@ -1,5 +1,5 @@
 const corsHeaders = {
-  "Access-Control-Allow-Origin": "https://github.com/askchristaleeharper.io",
+  "Access-Control-Allow-Origin": "https://askchristaleeharper.github.io",
   "Access-Control-Allow-Headers": "Content-Type",
   "Access-Control-Allow-Methods": "POST, OPTIONS"
 };
