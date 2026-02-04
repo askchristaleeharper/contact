@@ -19,7 +19,7 @@
             </p>
         </header>
 
-        <form class="contact-form" action="#" method="" id-"contactForm">
+        <form class="contact-form" action="#" method="" id="contactForm">
             <div class="form-group">
                 <label for="name">Name</label>
                 <input id="name" name="name" type="text" placeholder="John Doe" required>
@@ -39,18 +39,13 @@
                 <label for="message">Message</label>
                 <textarea id="message" name="message" rows="5" placeholder="Your message here"></textarea>
             </div>
-
+            <p id="form-message"></p>
+            <input id="website" name="website" type="hidden" autocomplete="off">
             <button type="submit" class="submit-btn">
                 Send Message
             </button>
-        &lt;!-- Honeypot field (do NOT remove) --&gt;
-&lt;div style=&quot;display:none;&quot;&gt;
-&lt;label&gt;Website&lt;/label&gt;
-&lt;input type=&quot;text&quot; id=&quot;website&quot; name=&quot;website&quot;
-autocomplete=&quot;off&quot;&gt;
-&lt;/div&gt;
+            <p id="formStatus" role="status"></p>
         </form>
-        &lt;p id=&quot;formStatus&quot;&gt;&lt;/p&gt;
     </main>
     <footer>
         <p>Christa Lee Harper</p>
